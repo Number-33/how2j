@@ -1,0 +1,38 @@
+Category           分类表    存放医院科室信息
+Property           属性表      存放科室治疗方向
+PropertyValue       属性值       疾病具体信息
+Category              产品表      存放医生信息
+User                用户表      存放用户信息
+CategoryImage         医生图片表   存放医生图片
+Order               挂号单          存放订单信息，包括病人身份信息，时间
+OrderItem           订单表项        包括病人挂号的科室，医生，时间，费用
+Review              评价表        医生评价
+
+医生表字段稍多，讲解一下
+name: 医生名称
+personal_data:个人信息 
+orignalPrice: 价格
+promotePrice: 会员价格
+stock: 今日看病名额
+createDate: 创建日期
+本表的外键cid，指向分类表的id字段
+
+
+
+
+订单表的字段也比较多，讲解一下：
+orderCode： 订单号
+receiver: 收货人信息
+mobile: 手机号码
+userMessage: 用户备注信息
+createDate: 订单创建日期
+payDate: 支付日期
+status: 订单状态
+外键uid，指向用户表id字段 
+
+
+
+
+
+
+

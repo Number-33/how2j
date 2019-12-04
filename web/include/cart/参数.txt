@@ -1,0 +1,5 @@
+pid 医生编号
+user 用户信息
+oiid 为此订单项的id
+diangdanxiang 订单项信息
+order 最终订单信息

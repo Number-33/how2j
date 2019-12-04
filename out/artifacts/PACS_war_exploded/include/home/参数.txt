@@ -1,0 +1,2 @@
+科室参数categorys,包含：id,name,doctors,doctorbyRow
+cs,包含了医生信息的科室集合
